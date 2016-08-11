@@ -1,0 +1,153 @@
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+ .jumbotron
+{
+	position: relative;
+    background: #000 url("../images/8.jpg") center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;	    
+    opacity: 0.8;    
+    margin: 0;
+}
+.jumbotron p
+{
+	color: #09c;
+	text-shadow: 1px 1px #333, 
+                2px 2px #333, 
+                3px 3px #333;
+    font-size: 28pt;
+    font-family: 'Indie Flower', cursive;
+}
+.jumbotron h1
+{	
+	color: #c00;
+	text-shadow: 1px 1px #333, 
+                2px 2px #333, 
+                3px 3px #333;
+    font-size: 72pt;
+    font-family: 'Anton', sans-serif;
+}
+    
+ /* Add a gray background color and some padding to the footer */
+ footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+ }
+ /*Footer*/
+footer
+{	
+	background-color: #222;
+	position: relative;
+    margin-bottom: -30px;
+    display: inline-block;
+    height: 250px;
+    width: 100%;
+}
+#imagenperfil
+{
+	border-radius: 3em;
+	border-color:#c00;
+	border-width: 5px;
+	border-style: solid;
+	width: 75px;
+	height: 75px;
+	float: left;	
+	padding: 0px;
+}
+.divfooter
+{
+	padding: 20px;	
+}
+.divfooter p
+{
+	color: #cc0000;
+
+}
+#redes i
+{
+	color: #cc0000;
+	float: left;
+	padding: 10px;
+}
+#titulofooter
+{
+	color:#3366ff;
+}
+.imagenfooter
+{
+	width: 150px;		
+	height: 150px;
+	border-radius: 2em;
+	border-color:#c00;
+	border-width: 5px;
+	border-style: solid;
+	float: left;
+	margin-right: 15px;
+}
+/*galeria*/
+
+.imagen
+{
+	width: 100%;
+	height: 250px;	
+	border-radius: 2em;
+	border-color:#c00;
+	border-width: 5px;
+	border-style: solid;
+}
+.titulo
+{
+	color:#09c;
+	font-size: 20pt;
+	font-family: 'Indie Flower', cursive;
+}
+h1,h2,h3
+{
+	color:#c00;
+	font-family: 'Anton', sans-serif;
+}
+h4,h5,h6
+{
+	color:#09c;	
+	font-family: 'Indie Flower', cursive;
+}
+hr
+{
+	max-width: 70%;
+	border-color: #ccc;
+}
+/*formulario*/
+.form
+{
+	width: 60%;	
+}
+label
+{
+	float: left;
+}
+#panelservicios
+{
+	margin: 0 auto;
+	padding: 100px;
+}
+#imagenbio
+{
+	border-radius: 3em;
+	border-color:#c00;
+	border-width: 5px;
+	border-style: solid;
+	width: 200px;
+	height: 200px;
+	float: left;	
+	padding: 0px;
+}
+strong
+{
+	font-size: 14pt;
+}
